@@ -1,0 +1,17 @@
+﻿#include <iostream>
+using namespace std;
+class Laowang{
+	public:
+		Laowang(){}
+		void run();
+};
+void Laowang::run(){
+	printf("打开冰箱门\n");
+	printf("把大象放进去\n");
+	printf("搞定\n");
+};
+int main(){
+	Laowang lw;
+	lw.run();
+	return 0;
+}

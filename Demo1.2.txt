@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main(){
+	int a;
+	printf("please input the number: \n");
+	scanf("%d",&a);
+	while(true){
+		if(a>10){
+			printf("too large\n");
+			scanf("%d",&a);
+		}else if(a<3){
+			printf("too small\n");
+			scanf("%d",&a);
+		}else{
+			printf("correct");
+			return 0;
+		}
+	}
+}
