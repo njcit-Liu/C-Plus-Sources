@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+int main(){
+	char showCode;
+	cout<<"你想用什么符号来组成爱心呢? \n";
+	cin >>showCode ;
+    //printf(".......%c%c...........%c%c........\n",showCode,showCode,showCode,showCode);
+	printf("......%c%c..............%c%c........\n",showCode,showCode,showCode,showCode);
+    printf("....%c.......%c.....%c.......%c....\n",showCode,showCode,showCode,showCode);
+    printf("..%c............%c............%c..\n",showCode,showCode,showCode);
+    printf(".%c...........................%c.\n",showCode,showCode);
+    printf(".%c...........................%c.\n",showCode,showCode);
+    printf(".%c...........................%c.\n",showCode,showCode);
+    printf(".%c...........................%c.\n",showCode,showCode);
+    printf("..%c.........................%c..\n",showCode,showCode);
+    printf("...%c.......................%c...\n",showCode,showCode);
+    printf("....%c.....................%c....\n",showCode,showCode);
+    printf("......%c.................%c......\n",showCode,showCode);
+    printf("........%c.............%c........\n",showCode,showCode);
+    printf("..........%c.........%c..........\n",showCode,showCode);
+    printf(".............%c...%c.............\n",showCode,showCode);
+    printf("...............%c...............\n",showCode);
+    return 0;
+}

@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+int main(){
+	int showNum;
+	char showCode;
+	cout<<"你想输出多少爱心呢? \n";
+	cin >>showNum ;
+	cout<<"你想使用什么符号呢? \n";
+	cin >>showCode ;
+    //printf(".......%c%c...........%c%c........\n",showCode,showCode,showCode,showCode);
+	for(int i = 0;i<showNum;i++){
+		printf("......%c%c..............%c%c........\n",showCode,showCode,showCode,showCode);
+    printf("....%c.......%c.....%c.......%c....\n",showCode,showCode,showCode,showCode);
+    printf("..%c............%c............%c..\n",showCode,showCode,showCode);
+    printf(".%c...........................%c.\n",showCode,showCode);
+    printf(".%c...........................%c.\n",showCode,showCode);
+    printf(".%c...........................%c.\n",showCode,showCode);
+    printf(".%c...........................%c.\n",showCode,showCode);
+    printf("..%c.........................%c..\n",showCode,showCode);
+    printf("...%c.......................%c...\n",showCode,showCode);
+    printf("....%c.....................%c....\n",showCode,showCode);
+    printf("......%c.................%c......\n",showCode,showCode);
+    printf("........%c.............%c........\n",showCode,showCode);
+    printf("..........%c.........%c..........\n",showCode,showCode);
+    printf(".............%c...%c.............\n",showCode,showCode);
+    printf("...............%c...............\n",showCode);	
+	}
+    return 0;
+}
